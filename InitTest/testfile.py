@@ -2,6 +2,9 @@
 
 import numpy as np
 
+import azureml.core as azu
+#from azureml.core import 
+
 T = 4; E = 3; ST = 2
 
 testArray = np.zeros((T,E,ST))
